@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Switch Stash</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/app/styles.css" />
+  </head>
+  <body>
+    <div class="backdrop"></div>
+    <main class="app">
+      <header class="hero">
+        <div class="badge">Nintendo Switch Library</div>
+        <h1>Switch Stash</h1>
+        <p>
+          Sort what you own, cross-check the bigger catalog, and spot deals worth
+          grabbing based on players, genres, and score.
+        </p>
+      </header>
+
+      <div class="tabs" role="tablist">
+        <button
+          class="tab-button active"
+          data-tab="browse"
+          role="tab"
+          type="button"
+        >
+          Browse
+        </button>
+        <button class="tab-button" data-tab="owned" role="tab" type="button">
+          Owned catalog
+        </button>
+        <button class="tab-button" data-tab="wishlist" role="tab" type="button">
+          Wishlist
+        </button>
+        <button class="tab-button" data-tab="store" role="tab" type="button">
+          Master catalog
+        </button>
+        <button class="tab-button" data-tab="experiment" role="tab" type="button">
+          Experiment
+        </button>
+      </div>
+
+      <section class="panel tab-panel active" data-panel="browse" role="tabpanel">
+        <div class="browse-layout">
+          <aside class="filter-column">
+            <div class="filters">
+              <div class="filter-row search-row">
+                <label class="filter-block search-block">
+                  <span class="search-prefix"><strong>Search:</strong></span>
+                  <input
+                    id="search-input"
+                    type="search"
+                    placeholder="titles, tags, notes"
+                  />
+                </label>
+              </div>
+
+              <div class="filter-row sort-row">
+                <label class="filter-block compact control-pill">
+                  <span class="control-label"><strong>Sort:</strong></span>
+                  <div class="multi-select" id="sort-select">
+                    <button type="button" class="multi-select-button" id="sort-select-button">
+                      Title (A-Z)
+                    </button>
+                    <div class="multi-select-menu" id="sort-select-menu"></div>
+                  </div>
+                </label>
+                <label class="filter-block compact control-pill">
+                  <span class="control-label"><strong>Type:</strong></span>
+                  <div class="multi-select" id="type-select">
+                    <button type="button" class="multi-select-button" id="type-select-button">
+                      All types
+                    </button>
+                    <div class="multi-select-menu" id="type-select-menu"></div>
+                  </div>
+                </label>
+              </div>
+
+              <div class="filter-card filter-card--highlight">
+                <div class="filter-row players-row">
+                  <span>Players</span>
+                  <div class="segmented" id="players-filter">
+                    <button data-value="any" class="active">Any</button>
+                    <button data-value="2+">2+</button>
+                    <button data-value="4+">4+</button>
+                    <button data-value="co-op">Co-op</button>
+                    <button data-value="solo">Solo</button>
+                  </div>
+                </div>
+
+                <div class="tag-columns">
+                  <div class="tag-section">
+                    <span>Genres</span>
+                    <div id="genre-filter" class="tag-filter"></div>
+                  </div>
+                  <div class="tag-section">
+                    <span>Tags</span>
+                    <div id="tag-filter" class="tag-filter"></div>
+                  </div>
+                </div>
+                <div class="highlight-panel">
+                  <div class="highlight-row">
+                    <span>Show</span>
+                    <div class="highlight-group segmented" id="highlight-filters">
+                      <button type="button" data-filter="owned">Owned</button>
+                      <button type="button" data-filter="wishlist">
+                        On wishlist
+                      </button>
+                      <button type="button" data-filter="good-match">
+                        Good match
+                      </button>
+                    </div>
+                  </div>
+                  <label class="filter-block checkbox-block only-matches">
+                    <span>Only matches</span>
+                    <input id="matches-toggle" type="checkbox" />
+                  </label>
+                  <div class="region-block">
+                    <span>Region</span>
+                    <select id="region-select">
+                      <option value="all">All regions</option>
+                    </select>
+                  </div>
+                  <p class="highlight-helper">
+                    Good match flags titles whose tags/genres align with your
+                    owned collection; “Only matches” hides everything else once
+                    checked.
+                  </p>
+                </div>
+              </div>
+
+              <div class="filter-card filter-card--metrics">
+                <div class="filter-card-heading">Deals & scores</div>
+                <div class="filters secondary bounded">
+                  <div class="distribution-panel">
+                    <div class="distribution-header">
+                      <strong>Discount % range</strong>
+                      <div class="range-inputs">
+                        <input
+                          id="discount-min"
+                          type="number"
+                          min="0"
+                          max="100"
+                          placeholder="Min"
+                        />
+                        <span>-</span>
+                        <input
+                          id="discount-max"
+                          type="number"
+                          min="0"
+                          max="100"
+                          placeholder="Max"
+                        />
+                      </div>
+                    </div>
+                    <div class="distribution-bar" id="discount-distribution"></div>
+                    <div class="slider-pair">
+                      <input
+                        id="discount-slider-min"
+                        type="range"
+                        min="0"
+                        max="100"
+                        value="0"
+                      />
+                      <input
+                        id="discount-slider-max"
+                        type="range"
+                        min="0"
+                        max="100"
+                        value="100"
+                      />
+                    </div>
+                  </div>
+                  <div class="distribution-panel">
+                    <div class="distribution-header">
+                      <strong>Metascore range</strong>
+                      <div class="range-inputs">
+                        <input
+                          id="metascore-min"
+                          type="number"
+                          min="0"
+                          max="100"
+                          placeholder="Min"
+                        />
+                        <span>-</span>
+                        <input
+                          id="metascore-max"
+                          type="number"
+                          min="0"
+                          max="100"
+                          placeholder="Max"
+                        />
+                      </div>
+                    </div>
+                    <div class="distribution-bar" id="metascore-distribution"></div>
+                    <div class="slider-pair">
+                      <input
+                        id="metascore-slider-min"
+                        type="range"
+                        min="0"
+                        max="100"
+                        value="0"
+                      />
+                      <input
+                        id="metascore-slider-max"
+                        type="range"
+                        min="0"
+                        max="100"
+                        value="100"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </aside>
+          <div class="results-panel">
+            <section class="results">
+              <div class="results-header">
+                <div class="stats" id="stats"></div>
+                <div class="filter-summary" id="filter-summary"></div>
+              </div>
+              <div class="grid" id="results-grid"></div>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel tab-panel" data-panel="owned" role="tabpanel">
+        <div class="panel-row">
+          <div class="file-card">
+            <div>
+              <h2>Owned catalog</h2>
+              <p>
+                Titles you already own. Auto-loads your saved list and
+                auto-saves when you toggle ownership.
+              </p>
+            </div>
+            <div class="list-editor">
+              <div class="editor-row add-row">
+                <div class="input-stack">
+                  <span>Did you buy a new game?</span>
+                  <div class="autocomplete">
+                    <input
+                      id="owned-input"
+                      type="text"
+                      placeholder="Add the new title to your catalog"
+                    />
+                    <div
+                      id="owned-autocomplete"
+                      class="autocomplete-list"
+                      role="listbox"
+                    ></div>
+                  </div>
+                </div>
+                <button id="owned-add">Add</button>
+              </div>
+            </div>
+            <div class="list-summary">
+              <span id="owned-count">0 titles owned currently</span>
+              <label class="filter-block">
+                <span>Sort</span>
+                <select id="owned-sort" aria-label="Sort">
+                  <option value="title">Title (A-Z)</option>
+                  <option value="title-desc">Title (Z-A)</option>
+                  <option value="added">Recently added</option>
+                </select>
+              </label>
+            </div>
+            <ul id="owned-list" class="list-list"></ul>
+            <div class="maintenance">
+              <div class="maintenance-title">Owned database maintenance</div>
+              <div class="file-actions">
+                <label class="file-input">
+                  <input type="file" id="owned-file" accept=".json" />
+                  Upload owned file
+                </label>
+                <button class="ghost" id="owned-download">
+                  Download owned
+                </button>
+                <button class="ghost danger" id="owned-clear">
+                  Clear owned
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel tab-panel" data-panel="wishlist" role="tabpanel">
+        <div class="panel-row">
+          <div class="file-card">
+            <div>
+              <h2>Wishlist</h2>
+              <p>
+                Titles you want to own. Used to flag discounted deals in the
+                master catalog. Auto-saves on change.
+              </p>
+            </div>
+            <div class="list-editor">
+              <div class="editor-row add-row">
+                <div class="filter-block">
+                  <span>Add a new wishlist title</span>
+                </div>
+                <div class="input-stack">
+                  <div class="autocomplete">
+                    <input
+                      id="wishlist-input"
+                      type="text"
+                      placeholder="Add the new title to your wishlist"
+                    />
+                    <div
+                      id="wishlist-autocomplete"
+                      class="autocomplete-list"
+                      role="listbox"
+                    ></div>
+                  </div>
+                </div>
+                <button id="wishlist-add">Add</button>
+              </div>
+            </div>
+            <div class="list-summary">
+              <span id="wishlist-count">0 wishlist titles currently</span>
+              <label class="filter-block">
+                <span>Sort</span>
+                <select id="wishlist-sort" aria-label="Sort">
+                  <option value="title">Title (A-Z)</option>
+                  <option value="title-desc">Title (Z-A)</option>
+                  <option value="added">Recently added</option>
+                </select>
+              </label>
+            </div>
+            <ul id="wishlist-list" class="list-list"></ul>
+            <div class="maintenance">
+              <div class="maintenance-title">Wishlist database maintenance</div>
+              <div class="file-actions">
+                <label class="file-input">
+                  <input type="file" id="wishlist-file" accept=".json" />
+                  Upload wishlist file
+                </label>
+                <button class="ghost" id="wishlist-download">
+                  Download wishlist
+                </button>
+                <button class="ghost danger" id="wishlist-clear">
+                  Clear wishlist
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel tab-panel" data-panel="store" role="tabpanel">
+        <div class="panel-row">
+          <div class="file-card">
+            <div>
+              <h2>Master catalog</h2>
+              <p>
+                Merges store metadata and regional pricing.
+              </p>
+            </div>
+            <div class="status" id="catalog-status">No data loaded.</div>
+            <div class="refresh-row">
+              <button class="ghost" id="catalog-refresh">Refresh catalog</button>
+              <span id="catalog-refresh-meta" class="refresh-meta"></span>
+            </div>
+            <div class="catalog-settings">
+              <div class="editor-row">
+                <label class="filter-block">
+                  <span>Min Metascore</span>
+                  <input id="catalog-metascore" type="number" min="0" max="100" value="45" />
+                </label>
+                <label class="filter-block">
+                  <span>Recent window (months)</span>
+                  <input id="catalog-recent" type="number" min="0" max="24" value="3" />
+                </label>
+              </div>
+              <div class="editor-row">
+                <label class="filter-block">
+                  <span>Min popularity</span>
+                  <input id="catalog-popularity" type="number" min="0" />
+                </label>
+                <label class="filter-block inline">
+                  <input id="catalog-require-release" type="checkbox" checked />
+                  <span>Require release date</span>
+                </label>
+              </div>
+              <div id="catalog-stats" class="catalog-stats"></div>
+              <div id="catalog-meta" class="catalog-meta"></div>
+            </div>
+            <div class="maintenance">
+              <div class="maintenance-title">Catalog database maintenance</div>
+              <div class="file-actions">
+                <label class="file-input">
+                  <input type="file" id="catalog-file" accept=".json" />
+                  Upload catalog file
+                </label>
+                <button class="ghost" id="catalog-download">
+                  Download catalog
+                </button>
+                <button class="ghost" id="clear-catalog">Clear catalog</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel tab-panel" data-panel="experiment" role="tabpanel">
+        <div class="panel-row">
+          <div class="file-card experiment-panel">
+            <div>
+              <h2>Experiment</h2>
+              <p>
+                A deeper card layout that surfaces the full IGDB + Nintendo metadata
+                on one canvas. Use it to explore how we might organize rich details.
+              </p>
+            </div>
+            <div class="experiment-controls">
+              <label class="filter-block search-block">
+                <span class="search-prefix"><strong>Preview:</strong></span>
+                <input
+                  id="experiment-input"
+                  type="search"
+                  placeholder="Search a title to preview"
+                  list="experiment-list"
+                />
+                <datalist id="experiment-list"></datalist>
+              </label>
+              <div id="experiment-meta" class="experiment-meta-note"></div>
+            </div>
+          </div>
+        </div>
+        <div class="experiment-grid" id="experiment-grid"></div>
+      </section>
+    </main>
+
+    <script src="/app/app.js"></script>
+  </body>
+</html>

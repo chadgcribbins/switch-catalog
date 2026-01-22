@@ -1,0 +1,1263 @@
+{
+  "metadata": {
+    "generated": "2025-12-27",
+    "source_file": "Nintendo_Switch_Game_Catalog_Merged_v3.md",
+    "rules": {
+      "exclude_demos": true,
+      "exclude_apps": true,
+      "exclude_user_confirmed_not_owned": true,
+      "collapse_complete_editions": true
+    },
+    "counts": {
+      "owned_titles": 89,
+      "excluded_titles": 15,
+      "total_titles_considered": 104
+    },
+    "user_confirmed_not_owned": [
+      "It Takes Two",
+      "Mario Kart Live: Home Circuit",
+      "NAMCO MUSEUM (PAC-MAN VS. Free Multiplayer-only Ver.)",
+      "PAC-MAN 99",
+      "Super Kirby Clash"
+    ],
+    "other_exclusions": {
+      "Jurassic World Evolution": "Replaced by Complete Edition"
+    }
+  },
+  "owned": [
+    {
+      "title": "51 Worldwide Games",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/51%20Worldwide%20Games/?category=game"
+    },
+    {
+      "title": "AER - Memories of Old",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [
+        "ori"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/AER%20-%20Memories%20of%20Old/?category=game"
+    },
+    {
+      "title": "Among Us",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/Among%20Us/?category=game"
+    },
+    {
+      "title": "Arise: A Simple Story - Definitive Edition",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/Arise%3A%20A%20Simple%20Story%20-%20Definitive%20Edition/?category=game"
+    },
+    {
+      "title": "Assassin's Creed The Rebel Collection",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [
+        "assassins-creed"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/Assassin%27s%20Creed%20The%20Rebel%20Collection/?category=game"
+    },
+    {
+      "title": "Brawlhalla",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "US"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/Brawlhalla/?category=game"
+    },
+    {
+      "title": "Brothers: A Tale of Two Sons",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "US"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/Brothers%3A%20A%20Tale%20of%20Two%20Sons/?category=game"
+    },
+    {
+      "title": "Capcom Arcade Stadium",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [
+        "capcom"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/Capcom%20Arcade%20Stadium/?category=game"
+    },
+    {
+      "title": "Castlevania Anniversary Collection",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [
+        "castlevania"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/Castlevania%20Anniversary%20Collection/?category=game"
+    },
+    {
+      "title": "Child of Light",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/Child%20of%20Light/?category=game"
+    },
+    {
+      "title": "Contra Anniversary Collection",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [
+        "contra"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/Contra%20Anniversary%20Collection/?category=game"
+    },
+    {
+      "title": "Control Ultimate Edition - Cloud Version",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": true,
+      "regions": [
+        "UK"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/Control%20Ultimate%20Edition%20-%20Cloud%20Version/?category=game"
+    },
+    {
+      "title": "Crash Drive 3",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/Crash%20Drive%203/?category=game"
+    },
+    {
+      "title": "DC Universe Online",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/DC%20Universe%20Online/?category=game"
+    },
+    {
+      "title": "Degrees of Separation",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/Degrees%20of%20Separation/?category=game"
+    },
+    {
+      "title": "Dinosaur RPG - Dino Survival Simulator Survivor",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/Dinosaur%20RPG%20-%20Dino%20Survival%20Simulator%20Survivor/?category=game"
+    },
+    {
+      "title": "Donkey Kong Country: Tropical Freeze",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "US"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/Donkey%20Kong%20Country%3A%20Tropical%20Freeze/?category=game"
+    },
+    {
+      "title": "Down in Bermuda",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/Down%20in%20Bermuda/?category=game"
+    },
+    {
+      "title": "DROS",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "US"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/DROS/?category=game"
+    },
+    {
+      "title": "EQQO",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "US"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/EQQO/?category=game"
+    },
+    {
+      "title": "Fall Guys",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/Fall%20Guys/?category=game"
+    },
+    {
+      "title": "Figment",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/Figment/?category=game"
+    },
+    {
+      "title": "Gang Beasts",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/Gang%20Beasts/?category=game"
+    },
+    {
+      "title": "Gibbon: Beyond the Trees",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "US"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/Gibbon%3A%20Beyond%20the%20Trees/?category=game"
+    },
+    {
+      "title": "Grand Mountain Adventure: Wonderlands",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/Grand%20Mountain%20Adventure%3A%20Wonderlands/?category=game"
+    },
+    {
+      "title": "GRIS",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/GRIS/?category=game"
+    },
+    {
+      "title": "Hogwarts Legacy",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK",
+        "US"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/Hogwarts%20Legacy/?category=game"
+    },
+    {
+      "title": "INSIDE",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/INSIDE/?category=game"
+    },
+    {
+      "title": "Jurassic World Aftermath Collection",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [
+        "jurassic"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/Jurassic%20World%20Aftermath%20Collection/?category=game"
+    },
+    {
+      "title": "Jurassic World Evolution: Complete Edition",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [],
+      "tags": [
+        "jurassic"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/Jurassic%20World%20Evolution%3A%20Complete%20Edition/?category=game"
+    },
+    {
+      "title": "Just Dance",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "US"
+      ],
+      "tags": [
+        "just-dance"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/Just%20Dance/?category=game"
+    },
+    {
+      "title": "JUST DANCE 2020",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [
+        "just-dance"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/JUST%20DANCE%202020/?category=game"
+    },
+    {
+      "title": "Legend of Kay Anniversary",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/Legend%20of%20Kay%20Anniversary/?category=game"
+    },
+    {
+      "title": "LEGO CITY UNDERCOVER",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [
+        "lego"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/LEGO%20CITY%20UNDERCOVER/?category=game"
+    },
+    {
+      "title": "LEGO Jurassic World",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [
+        "lego",
+        "jurassic"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/LEGO%20Jurassic%20World/?category=game"
+    },
+    {
+      "title": "LEGO MARVEL Super Heroes 2",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [
+        "lego"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/LEGO%20MARVEL%20Super%20Heroes%202/?category=game"
+    },
+    {
+      "title": "LEGO Worlds",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [
+        "lego"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/LEGO%20Worlds/?category=game"
+    },
+    {
+      "title": "LIMBO",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "US"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/LIMBO/?category=game"
+    },
+    {
+      "title": "Luigi's Mansion 3",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/Luigi%27s%20Mansion%203/?category=game"
+    },
+    {
+      "title": "Mario + Rabbids Kingdom Battle",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "US"
+      ],
+      "tags": [
+        "mario"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/Mario%20%2B%20Rabbids%20Kingdom%20Battle/?category=game"
+    },
+    {
+      "title": "Mario Kart 8 Deluxe",
+      "type": "game",
+      "ownership": "both",
+      "cloud": false,
+      "regions": [],
+      "tags": [
+        "mario"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/Mario%20Kart%208%20Deluxe/?category=game"
+    },
+    {
+      "title": "Minecraft",
+      "type": "game",
+      "ownership": "both",
+      "cloud": false,
+      "regions": [],
+      "tags": [
+        "minecraft"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/Minecraft/?category=game"
+    },
+    {
+      "title": "Minecraft Dungeons",
+      "type": "game",
+      "ownership": "both",
+      "cloud": false,
+      "regions": [],
+      "tags": [
+        "minecraft"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/Minecraft%20Dungeons/?category=game"
+    },
+    {
+      "title": "Morphite",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/Morphite/?category=game"
+    },
+    {
+      "title": "Mortal Kombat 11 Ultimate",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "US"
+      ],
+      "tags": [
+        "mortal-kombat"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/Mortal%20Kombat%2011%20Ultimate/?category=game"
+    },
+    {
+      "title": "NBA 2K Playgrounds 2",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "US"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/NBA%202K%20Playgrounds%202/?category=game"
+    },
+    {
+      "title": "NBA 2K20",
+      "type": "game",
+      "ownership": "both",
+      "cloud": false,
+      "regions": [],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/NBA%202K20/?category=game"
+    },
+    {
+      "title": "New Super Mario Bros. U Deluxe",
+      "type": "game",
+      "ownership": "both",
+      "cloud": false,
+      "regions": [],
+      "tags": [
+        "mario"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/New%20Super%20Mario%20Bros.%20U%20Deluxe/?category=game"
+    },
+    {
+      "title": "Nintendo Switch Sports",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "US"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/Nintendo%20Switch%20Sports/?category=game"
+    },
+    {
+      "title": "Ori and the Blind Forest: Definitive Edition",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "US"
+      ],
+      "tags": [
+        "ori"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/Ori%20and%20the%20Blind%20Forest%3A%20Definitive%20Edition/?category=game"
+    },
+    {
+      "title": "Overcooked! Special Edition",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [
+        "overcooked"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/Overcooked%21%20Special%20Edition/?category=game"
+    },
+    {
+      "title": "PAN-PAN: A Tiny Big Adventure",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "US"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/PAN-PAN%3A%20A%20Tiny%20Big%20Adventure/?category=game"
+    },
+    {
+      "title": "Pocket Mini Golf",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/Pocket%20Mini%20Golf/?category=game"
+    },
+    {
+      "title": "Pokemon Quest",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "US"
+      ],
+      "tags": [
+        "pokemon"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/Pokemon%20Quest/?category=game"
+    },
+    {
+      "title": "Puyo Puyo Champions",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [
+        "puyo-puyo"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/Puyo%20Puyo%20Champions/?category=game"
+    },
+    {
+      "title": "Rayman Legends: Definitive Edition",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [
+        "rayman"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/Rayman%20Legends%3A%20Definitive%20Edition/?category=game"
+    },
+    {
+      "title": "REKY",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "US"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/REKY/?category=game"
+    },
+    {
+      "title": "Rocket League",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [
+        "rocket-league"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/Rocket%20League/?category=game"
+    },
+    {
+      "title": "Sid Meier's Civilization VI",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [
+        "civilization"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/Sid%20Meier%27s%20Civilization%20VI/?category=game"
+    },
+    {
+      "title": "Spiritfarer",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/Spiritfarer/?category=game"
+    },
+    {
+      "title": "Star Wars: Hunters",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [
+        "star-wars"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/Star%20Wars%3A%20Hunters/?category=game"
+    },
+    {
+      "title": "Stumble Guys",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/Stumble%20Guys/?category=game"
+    },
+    {
+      "title": "Super Mario 3D World + Bowser's Fury",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [
+        "mario"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/Super%20Mario%203D%20World%20%2B%20Bowser%27s%20Fury/?category=game"
+    },
+    {
+      "title": "Super Mario Bros. Wonder",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "US"
+      ],
+      "tags": [
+        "mario"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/Super%20Mario%20Bros.%20Wonder/?category=game"
+    },
+    {
+      "title": "Super Mario Odyssey",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [
+        "mario"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/Super%20Mario%20Odyssey/?category=game"
+    },
+    {
+      "title": "Super Mario Party",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "US"
+      ],
+      "tags": [
+        "mario"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/Super%20Mario%20Party/?category=game"
+    },
+    {
+      "title": "Super Smash Bros. Ultimate",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "US"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/Super%20Smash%20Bros.%20Ultimate/?category=game"
+    },
+    {
+      "title": "Tetris 99",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [],
+      "tags": [
+        "tetris"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/Tetris%2099/?category=game"
+    },
+    {
+      "title": "Tetris Effect: Connected",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [],
+      "tags": [
+        "tetris"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/Tetris%20Effect%3A%20Connected/?category=game"
+    },
+    {
+      "title": "The First Tree",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/The%20First%20Tree/?category=game"
+    },
+    {
+      "title": "The Lara Croft Collection",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/The%20Lara%20Croft%20Collection/?category=game"
+    },
+    {
+      "title": "The Last Campfire",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/The%20Last%20Campfire/?category=game"
+    },
+    {
+      "title": "The Legend of Zelda: Breath of the Wild",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "US"
+      ],
+      "tags": [
+        "zelda"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/The%20Legend%20of%20Zelda%3A%20Breath%20of%20the%20Wild/?category=game"
+    },
+    {
+      "title": "The Legend of Zelda: Echoes of Wisdom",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "US"
+      ],
+      "tags": [
+        "zelda"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/The%20Legend%20of%20Zelda%3A%20Echoes%20of%20Wisdom/?category=game"
+    },
+    {
+      "title": "The Legend of Zelda: Link's Awakening",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [
+        "zelda"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/The%20Legend%20of%20Zelda%3A%20Link%27s%20Awakening/?category=game"
+    },
+    {
+      "title": "The Legend of Zelda: Tears of the Kingdom",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "US"
+      ],
+      "tags": [
+        "zelda"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/The%20Legend%20of%20Zelda%3A%20Tears%20of%20the%20Kingdom/?category=game"
+    },
+    {
+      "title": "The Rusty Sword: Vanguard Island",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/The%20Rusty%20Sword%3A%20Vanguard%20Island/?category=game"
+    },
+    {
+      "title": "The Witcher 3: Wild Hunt - Complete Edition",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "US"
+      ],
+      "tags": [
+        "witcher"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/The%20Witcher%203%3A%20Wild%20Hunt%20-%20Complete%20Edition/?category=game"
+    },
+    {
+      "title": "Tomb Raider I-III Remastered",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "US"
+      ],
+      "tags": [
+        "tomb-raider"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/Tomb%20Raider%20I-III%20Remastered/?category=game"
+    },
+    {
+      "title": "Transistor",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/Transistor/?category=game"
+    },
+    {
+      "title": "Trine 4: The Nightmare Prince",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/Trine%204%3A%20The%20Nightmare%20Prince/?category=game"
+    },
+    {
+      "title": "Tunic",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/Tunic/?category=game"
+    },
+    {
+      "title": "UNO",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/UNO/?category=game"
+    },
+    {
+      "title": "Unravel TWO",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [
+        "unravel"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/Unravel%20TWO/?category=game"
+    },
+    {
+      "title": "Unruly Heroes",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/Unruly%20Heroes/?category=game"
+    },
+    {
+      "title": "Valley",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "US"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/Valley/?category=game"
+    },
+    {
+      "title": "Warframe",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "US"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/Warframe/?category=game"
+    },
+    {
+      "title": "Wavetale",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/Wavetale/?category=game"
+    },
+    {
+      "title": "Yooka-Laylee and the Impossible Lair",
+      "type": "game",
+      "ownership": "digital",
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/Yooka-Laylee%20and%20the%20Impossible%20Lair/?category=game"
+    }
+  ],
+  "excluded": [
+    {
+      "title": "Game Boy - Nintendo Switch Online",
+      "type": "app",
+      "ownership": "digital",
+      "demo": false,
+      "cloud": false,
+      "regions": [],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/Game%20Boy%20-%20Nintendo%20Switch%20Online/?category=game",
+      "reason": "App/Service (excluded from owned catalog)"
+    },
+    {
+      "title": "Immortals Fenyx Rising - Demo",
+      "type": "game",
+      "ownership": "digital",
+      "demo": true,
+      "cloud": false,
+      "regions": [],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/Immortals%20Fenyx%20Rising%20-%20Demo/?category=game",
+      "reason": "Demo (excluded from owned catalog)"
+    },
+    {
+      "title": "It Takes Two",
+      "type": "game",
+      "ownership": "digital",
+      "demo": false,
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/It%20Takes%20Two/?category=game",
+      "reason": "User confirmed not owned"
+    },
+    {
+      "title": "Jurassic World Evolution",
+      "type": "game",
+      "ownership": "digital",
+      "demo": false,
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [
+        "jurassic"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/Jurassic%20World%20Evolution/?category=game",
+      "reason": "Replaced by Complete Edition"
+    },
+    {
+      "title": "Mario & Sonic at the Olympic Games - Demo",
+      "type": "game",
+      "ownership": "digital",
+      "demo": true,
+      "cloud": false,
+      "regions": [],
+      "tags": [
+        "mario"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/Mario%20%26%20Sonic%20at%20the%20Olympic%20Games%20-%20Demo/?category=game",
+      "reason": "Demo (excluded from owned catalog)"
+    },
+    {
+      "title": "Mario Kart Live: Home Circuit",
+      "type": "game",
+      "ownership": "digital",
+      "demo": false,
+      "cloud": false,
+      "regions": [
+        "US"
+      ],
+      "tags": [
+        "mario"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/Mario%20Kart%20Live%3A%20Home%20Circuit/?category=game",
+      "reason": "User confirmed not owned"
+    },
+    {
+      "title": "Mega Man 11 - Demo",
+      "type": "game",
+      "ownership": "digital",
+      "demo": true,
+      "cloud": false,
+      "regions": [],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/Mega%20Man%2011%20-%20Demo/?category=game",
+      "reason": "Demo (excluded from owned catalog)"
+    },
+    {
+      "title": "NAMCO MUSEUM (PAC-MAN VS. Free Multiplayer-only Ver.)",
+      "type": "game",
+      "ownership": "digital",
+      "demo": false,
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/NAMCO%20MUSEUM%20%28PAC-MAN%20VS.%20Free%20Multiplayer-only%20Ver.%29/?category=game",
+      "reason": "User confirmed not owned"
+    },
+    {
+      "title": "Nintendo Entertainment System - Nintendo Switch Online",
+      "type": "app",
+      "ownership": "digital",
+      "demo": false,
+      "cloud": false,
+      "regions": [],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/Nintendo%20Entertainment%20System%20-%20Nintendo%20Switch%20Online/?category=game",
+      "reason": "App/Service (excluded from owned catalog)"
+    },
+    {
+      "title": "PAC-MAN 99",
+      "type": "game",
+      "ownership": "digital",
+      "demo": false,
+      "cloud": false,
+      "regions": [
+        "UK"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/PAC-MAN%2099/?category=game",
+      "reason": "User confirmed not owned"
+    },
+    {
+      "title": "Prince of Persia: The Lost Crown - Demo",
+      "type": "game",
+      "ownership": "digital",
+      "demo": true,
+      "cloud": false,
+      "regions": [],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/Prince%20of%20Persia%3A%20The%20Lost%20Crown%20-%20Demo/?category=game",
+      "reason": "Demo (excluded from owned catalog)"
+    },
+    {
+      "title": "Princess Peach: Showtime! - Demo",
+      "type": "game",
+      "ownership": "digital",
+      "demo": true,
+      "cloud": false,
+      "regions": [],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/Princess%20Peach%3A%20Showtime%21%20-%20Demo/?category=game",
+      "reason": "Demo (excluded from owned catalog)"
+    },
+    {
+      "title": "Super Kirby Clash",
+      "type": "game",
+      "ownership": "digital",
+      "demo": false,
+      "cloud": false,
+      "regions": [
+        "US"
+      ],
+      "tags": [
+        "kirby"
+      ],
+      "metacritic_search": "https://www.metacritic.com/search/Super%20Kirby%20Clash/?category=game",
+      "reason": "User confirmed not owned"
+    },
+    {
+      "title": "Super Nintendo Entertainment System - Nintendo Switch Online",
+      "type": "app",
+      "ownership": "digital",
+      "demo": false,
+      "cloud": false,
+      "regions": [],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/Super%20Nintendo%20Entertainment%20System%20-%20Nintendo%20Switch%20Online/?category=game",
+      "reason": "App/Service (excluded from owned catalog)"
+    },
+    {
+      "title": "YouTube",
+      "type": "app",
+      "ownership": "digital",
+      "demo": false,
+      "cloud": false,
+      "regions": [
+        "US"
+      ],
+      "tags": [],
+      "metacritic_search": "https://www.metacritic.com/search/YouTube/?category=game",
+      "reason": "App/Service (excluded from owned catalog)"
+    }
+  ]
+}
